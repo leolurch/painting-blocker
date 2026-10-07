@@ -1,0 +1,20 @@
+schema_version: 1
+adapter_name: qwen3_vl_adapter
+
+models:
+  - model_id: Qwen/Qwen3-VL-Embedding-8B
+    revision: 2c4565515e0f265c6511776e7193b22c0968ddc7
+    display_name: Qwen3-VL Embedding 8B
+    adapter_kwargs:
+      use_compile: false
+    embedding:
+      output_dim: 4096
+      normalize: true
+      dtype: float32
+      batch_size: 4
+      pooling: default
+    # Longest side at most 512 px, then Qwen's own processor.
+    preprocessing:
+      resize:
+        mode: max_side
+        size: 512

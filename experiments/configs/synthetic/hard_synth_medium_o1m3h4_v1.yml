@@ -1,0 +1,56 @@
+schema_version: 1
+recipe_id: hard_synth_v1
+profile_version: 1
+
+dimensions:
+  max_source_side: 1024
+  max_output_dimension: 1024
+  fixed_jitter_fraction: 0.15
+
+# One medium variant of each historic profile. The canonical hard_synth_v1
+# recipe stays at two hard/extreme variants per profile.
+historic_profiles:
+  archival:
+    variants_per_test_class: 1
+    severity: [medium]
+    requirements: [severe_color_degradation, crop_or_perspective, resolution_loss]
+  print:
+    variants_per_test_class: 1
+    severity: [medium]
+    requirements: [paper_document, annotation, resolution_loss]
+  cropped_record:
+    variants_per_test_class: 1
+    severity: [medium]
+    requirements: [hard_crop, annotation_or_document_context, resolution_loss]
+  framed_photo:
+    variants_per_test_class: 1
+    severity: [medium]
+    requirements: [perspective, frame, glare_or_occlusion, resolution_loss]
+
+severity_presets:
+  mild:
+    retained_area: [0.85, 1.0]
+    longest_side_pixels: [256, 512]
+    jpeg_quality: [70, 100]
+  medium:
+    retained_area: [0.70, 0.90]
+    longest_side_pixels: [160, 256]
+    jpeg_quality: [55, 90]
+  hard:
+    retained_area: [0.55, 0.75]
+    longest_side_pixels: [96, 160]
+    jpeg_quality: [40, 72]
+    occlusion_fraction: [0.04, 0.12]
+  extreme:
+    retained_area: [0.35, 0.60]
+    longest_side_pixels: [32, 96]
+    jpeg_quality: [28, 58]
+    occlusion_fraction: [0.08, 0.20]
+
+protocols:
+  compound_ood:
+    train_severity: [medium]
+    val_severity: [medium]
+    test_severity: [medium]
+  leave_one_profile_out:
+    profiles: [archival, print, cropped_record, framed_photo]

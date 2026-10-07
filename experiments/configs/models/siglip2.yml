@@ -1,0 +1,18 @@
+schema_version: 1
+adapter_name: siglip2_adapter
+
+models:
+  - model_id: google/siglip2-giant-opt-patch16-384
+    revision: a713301b217d38485fb2204c808367d10bc3cc40
+    adapter_kwargs:
+      attn_implementation: sdpa
+    embedding:
+      output_dim: null
+      normalize: true
+      dtype: float32
+      batch_size: 16
+      pooling: default
+    preprocessing:
+      resize:
+        mode: letterbox
+        size: 384

@@ -1,0 +1,16 @@
+schema_version: 1
+adapter_name: resnet50_hf_adapter
+
+models:
+  - model_id: microsoft/resnet-50
+    revision: 34c2154c194f829b11125337b98c8f5f9965ff19
+    embedding:
+      output_dim: 2048
+      normalize: true
+      dtype: float32
+      batch_size: 64
+      pooling: pooler_output
+    preprocessing:
+     resize:
+       mode: letterbox
+       size: 224

@@ -1,0 +1,101 @@
+schema_version: 1
+experiment_id: eval_wikidata1_5_lostart_distractors_frozen_multisplit_v1
+description: >-
+  Frozen baseline on ten class-disjoint 50/50 Wikidata 1.5 partitions with Lost Art distractors.
+  Validation selects thresholds and top-k; test is held out.
+dataset:
+  path: data/datasets/wikidata1.5-lostart-distractors
+split:
+  file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-42.json
+split_rotation_evaluation:
+  schema_version: 1
+  protocol:
+    frozen_before_evaluation: true
+  expected_split_seeds: [6, 7, 9, 10, 21, 42, 67, 87, 1337, 4711]
+  static_splits:
+    - {seed: 6, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-6.json}
+    - {seed: 7, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-7.json}
+    - {seed: 9, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-9.json}
+    - {seed: 10, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-10.json}
+    - {seed: 21, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-21.json}
+    - {seed: 42, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-42.json}
+    - {seed: 67, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-67.json}
+    - {seed: 87, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-87.json}
+    - {seed: 1337, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-1337.json}
+    - {seed: 4711, file: ../../splits/wikidata1.5-lostart-distractors/class-disjoint-val-test-seed-4711.json}
+  output_dir: ./runs/eval_wikidata1_5_lostart_distractors_frozen_multisplit_v1
+models:
+  include:
+  - config: ../../models/siglip2.yml
+    model_id: google/siglip2-giant-opt-patch16-384
+    label: SigLIP2-PP
+    color: '#CCBB44'
+    group: frozen
+    revision: a713301b217d38485fb2204c808367d10bc3cc40
+    adapter_kwargs:
+      attn_implementation: sdpa
+    embedding:
+      output_dim: null
+      normalize: true
+      dtype: float32
+      batch_size: 16
+      pooling: default
+    preprocessing:
+      resize:
+        mode: letterbox
+        size: 384
+embedding:
+  cache_policy: reuse_if_config_hash_matches
+  cache_dir: data/experiments/artifacts/embeddings/wikidata1_5_lostart_distractors
+  batch_size: 16
+evaluation:
+  similarity: cosine
+  top_k: [1, 5, 10, 20, 40, 80]
+  cache_dtype: float32
+  device: auto
+  gpu_dtype: float32
+  fp32_matmul_precision: ieee
+  top_k_calibration:
+    method: empirical_target_pc
+    calibration_id: wikidata_1_5_val_modern_to_historic_top_k_class_disjoint_50pct
+    target_pc: [0.95, 0.99]
+    on_unattained: report_only
+    task:
+      task_id: calibration_val_modern_to_historic
+      query:
+        subset: val
+        role: modern
+      candidates:
+        subset: val
+        role: historic
+      positive_policy: same_painting
+      exclude_self: true
+  threshold_calibration:
+    method: empirical_target_pc
+    calibration_id: wikidata_1_5_val_modern_to_historic_class_disjoint_50pct
+    target_pc: [0.95, 0.99]
+    task:
+      task_id: calibration_val_modern_to_historic
+      query:
+        subset: val
+        role: modern
+      candidates:
+        subset: val
+        role: historic
+      positive_policy: same_painting
+      exclude_self: true
+  retrieval_tasks:
+  - task_id: test_modern_to_historic
+    query:
+      subset: test
+      role: modern
+    candidates:
+      subset: test
+      role: historic
+    positive_policy: same_painting
+    exclude_self: true
+run:
+  output_dir: ./runs/eval_wikidata1_5_lostart_distractors_frozen_multisplit_v1
+  save_similarity_cache: true
+  fail_on_missing_images: true
+  fail_on_empty_positives: true

@@ -1,0 +1,155 @@
+schema_version: 1
+experiment_id: finetune_dinov3_vithplus_met_paint_wave1_03_r4a4_llr1e-5_hlr3e-4_do0p1_pk_v1
+description: >-
+  Wave-1 H+ GradCache run (rank 4, alpha 4, LoRA lr 1e-5,
+  head lr 3e-4, head dropout 0p1). Train on the
+  Met-identity-removed medium SYN split. The checkpoint is chosen on the
+  painting checkpoint half by the same funnel as model selection: mean pairs
+  completeness at k=5, 10, 20, 40, 60, and 80 within 0.5 percentage points,
+  then reduction ratio at 95% pairs completeness within 1 percentage point,
+  then lower LoRA learning rate, lower head learning rate, and lower epoch.
+  Training stops after two consecutive epochs that do not replace that
+  checkpoint. The selected checkpoint is scored on the painting model-selection half.
+dataset:
+  path: data/datasets/museum_deduplication_hard_synth_v1_met_deduped_medium_o1m3h4_v1
+split:
+  file: ../../splits/museum_deduplication_hard_synth_v1_met_deduped_medium_o1m3h4_v1/hard_synth_class_disjoint_v1.json
+models:
+  include:
+  - config: ../../models/dinov3.yml
+    model_id: facebook/dinov3-vith16plus-pretrain-lvd1689m
+    preprocessing:
+      resize:
+        mode: letterbox
+        size: 512
+finetuning:
+  model:
+    type: dinov3_lora_qv_projection
+    backbone: facebook/dinov3-vith16plus-pretrain-lvd1689m
+    revision: c807c9eeea853df70aec4069e6f56b28ddc82acc
+    pooling:
+      type: cls
+    embedding_dim: 1280
+    projection_dim: 1280
+    lora:
+      target_modules: [q_proj, v_proj]
+      adapt_last_n_layers: 16
+      rank: 4
+      alpha: 4
+      dropout: 0.05
+      bias: none
+      inspect_modules: true
+    head:
+      type: mlp_projection
+      hidden_dim: 1024
+      dropout: 0.1
+      output_dim: 1280
+  preprocessing:
+    resize:
+      mode: letterbox
+      size: 512
+  image_size: 512
+  normalization:
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+  sampler:
+    type: pk
+    classes_per_batch: 64
+    images_per_class: 4
+  loss:
+    name: multi_similarity
+    alpha: 2.0
+    beta: 50.0
+    base: 0.5
+    mining_epsilon: 0.1
+  optimizer:
+    name: adamw
+    lr_lora: 1e-05
+    lr_head: 0.0003
+    weight_decay: 0.1
+    eps: 1.0e-07
+  train:
+    epochs: 5
+    precision: bf16
+    scheduler: cosine
+    warmup_ratio: 0.1
+    grad_clip_norm: 1.0
+    num_workers: 8
+    seed: 42
+    deterministic: true
+    deterministic_warn_only: false
+    early_stop_non_improving_epochs: 2
+    gradient_cache:
+      enabled: true
+      chunk_size: 32
+      verify_replay: true
+    prefetch_factor: 1
+  evaluation:
+    checkpoint_selection:
+      metric: mean_pair_completeness_at_k
+      validation_set: met_checkpoint_selection
+      k: [5, 10, 20, 40, 60, 80]
+      pc_tie: 0.005
+      rr_tie: 0.01
+      epoch_tiebreak: earliest
+    top_k: [5, 10, 20, 40, 60, 80]
+    target_pc: 0.95
+    batch_size: 16
+  data:
+    train:
+      subset: train
+      roles:
+      - modern_original
+      - modern_generated
+      - historic_archival
+      - historic_print
+      - historic_cropped_record
+      - historic_framed_photo
+    validation:
+    - name: syn_val
+      primary: true
+      subset: val
+      roles:
+      - modern_original
+      - historic_archival
+      - historic_print
+      - historic_cropped_record
+      - historic_framed_photo
+      retrieval_tasks:
+      - task_id: syn_val_original_to_historic
+        query:
+          subset: val
+          role: modern_original
+        candidates:
+          subset: val
+          roles:
+          - historic_archival
+          - historic_print
+          - historic_cropped_record
+          - historic_framed_photo
+        positive_policy: same_painting
+        exclude_self: true
+    - name: met_checkpoint_selection
+      primary: false
+      dataset:
+        path: data/datasets/met_benchmark
+      split:
+        file: ../../splits/met_benchmark/met_painting_identity_halves_seed42_v1.json
+      subset: checkpoint_selection
+      roles: [query, catalog]
+      retrieval_tasks:
+      - task_id: met_checkpoint_selection_query_to_catalog
+        query:
+          subset: checkpoint_selection
+          role: query
+        candidates:
+          subset: checkpoint_selection
+          role: catalog
+        positive_policy: same_painting
+        exclude_self: true
+  post_evaluations:
+  - experiment: ../eval_met_painting_model_selection_from_finetuning_v1.yml
+    checkpoint: best
+    label: "H+ wave1 03_r4a4_llr1e-5_hlr3e-4_do0p1_pk — Met model selection"
+run:
+  output_dir: ./runs/finetune_dinov3_vithplus_met_paint_wave1_v1

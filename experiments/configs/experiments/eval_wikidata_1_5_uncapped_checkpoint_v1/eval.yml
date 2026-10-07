@@ -1,0 +1,37 @@
+schema_version: 1
+experiment_id: eval_wikidata_1_5_uncapped_checkpoint_v1
+description: >-
+  A declared H+ checkpoint on Wikidata 1.5 with the identity edits and every crop
+  kept. Sensitivity only. It does not choose a model.
+dataset:
+  path: data/datasets/wikidata-1.5-uncapped
+split:
+  file: ../../splits/wikidata-1.5-uncapped/test-only.json
+models:
+  from_finetuning_checkpoint: true
+embedding:
+  cache_policy: reuse_if_config_hash_matches
+  cache_dir: data/experiments/artifacts/embeddings/wikidata_1_5_uncapped_v1
+  batch_size: 16
+evaluation:
+  similarity: cosine
+  top_k: [1, 5, 10, 20, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160]
+  cache_dtype: float32
+  device: auto
+  gpu_dtype: float32
+  fp32_matmul_precision: ieee
+  retrieval_tasks:
+  - task_id: wikidata_full_modern_to_historic
+    query:
+      subset: test
+      role: modern
+    candidates:
+      subset: test
+      role: historic
+    positive_policy: same_painting
+    exclude_self: true
+run:
+  output_dir: ./runs/eval_wikidata_1_5_uncapped_checkpoint_v1
+  save_similarity_cache: true
+  fail_on_missing_images: true
+  fail_on_empty_positives: true

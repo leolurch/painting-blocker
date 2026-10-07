@@ -1,0 +1,47 @@
+# Deduplication pipeline configuration.
+#
+# Raw source directories are NOT configured here; they are passed to `ingest` via repeated
+# --source-dir options. Do not write environment-specific absolute raw paths into this file.
+
+[images]
+# Repository-local shared image directory (project-relative).
+dir = "work/images"
+extensions = [".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif", ".tif", ".tiff"]
+
+[model]
+# DINOv3 ViT-7B/16 — the model the cosine threshold below was calibrated against.
+id = "facebook/dinov3-vit7b16-pretrain-lvd1689m"
+revision = "b80367753773648a6793235ab9c65cdbb029506f"
+pooling = "default"          # CLS token
+resize_mode = "letterbox"    # resize-and-pad, preserving aspect ratio
+resize_size = 512
+normalize = true             # L2 normalize before cosine similarity
+dtype = "float16"            # forward/storage dtype preference (bf16 used if supported)
+batch_size = 8
+preprocess_workers = 4       # parallel Pillow decode/letterbox workers
+output_dim = 4096
+
+[retrieval]
+min_retrieval_window = 200  # retain threshold matches OR at least 200 neighbours/query
+cosine_threshold = 0.11395263671875
+comparison = ">="            # keep pairs with cosine >= threshold
+query_batch_size = 512
+
+[calibration]
+# Provenance for the threshold above (recorded into run.json / resolved_config.json).
+run_id = "dinov3-7b-pc995"
+artifact_path = "calibration/pc995"
+threshold_source = "aggregate_metrics.csv"
+target_pc = 0.995
+
+[superpoint]
+max_num_keypoints = 2048
+
+[classifier]
+# https://github.com/HPI-Information-Systems/smARTmatch  (image_matching/matching/classifier.pkl)
+path = "deduplication/classifier.pkl" # save the repository file at this path
+sha256 = "f9b313a44d86b7352583cd365d2af9181ec018708768aeaeaa4c762ebe7ff24d"
+
+[keeper]
+# Deterministic keeper priority by source name (earlier = preferred). Extend as needed.
+source_priority = ["metmuseum", "rijksmuseum", "artic", "cleveland", "nationalgallery", "wikimedia"]

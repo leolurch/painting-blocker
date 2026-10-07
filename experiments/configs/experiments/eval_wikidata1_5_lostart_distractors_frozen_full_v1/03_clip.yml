@@ -1,0 +1,53 @@
+schema_version: 1
+experiment_id: eval_wikidata1_5_lostart_distractors_frozen_full_v1
+description: >-
+  Frozen baseline on the full Wikidata 1.5 catalog plus Lost Art historic distractors. Modern queries against
+  historic candidates of the same painting.
+dataset:
+  path: data/datasets/wikidata1.5-lostart-distractors
+split:
+  file: ../../splits/wikidata1.5-lostart-distractors/test-only.json
+models:
+  include:
+  - config: ../../models/openai_clip.yml
+    model_id: openai/clip-vit-large-patch14-336
+    label: CLIP
+    variant_id: model-default/openai/clip-vit-large-patch14-336
+    color: '#332288'
+    group: frozen
+    revision: ce19dc912ca5cd21c8a653c79e251e808ccabcd1
+    embedding:
+      output_dim: 768
+      normalize: true
+      dtype: float32
+      batch_size: 64
+      pooling: default
+    preprocessing:
+      resize:
+        mode: model_default
+embedding:
+  cache_policy: reuse_if_config_hash_matches
+  cache_dir: data/experiments/artifacts/embeddings/wikidata1_5_lostart_distractors
+  batch_size: 16
+evaluation:
+  similarity: cosine
+  top_k: [1, 5, 10, 20, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160]
+  cache_dtype: float32
+  device: auto
+  gpu_dtype: float32
+  fp32_matmul_precision: ieee
+  retrieval_tasks:
+  - task_id: wikidata_full_modern_to_historic
+    query:
+      subset: test
+      role: modern
+    candidates:
+      subset: test
+      role: historic
+    positive_policy: same_painting
+    exclude_self: true
+run:
+  output_dir: ./runs/eval_wikidata1_5_lostart_distractors_frozen_full_v1
+  save_similarity_cache: true
+  fail_on_missing_images: true
+  fail_on_empty_positives: true
