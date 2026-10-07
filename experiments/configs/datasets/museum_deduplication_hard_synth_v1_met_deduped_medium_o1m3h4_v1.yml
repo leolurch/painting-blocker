@@ -1,0 +1,25 @@
+schema_version: 1
+dataset_id: museum_deduplication_hard_synth_v1_met_deduped_medium_o1m3h4_v1
+
+# Met-deduped SYN catalog. Every class has one modern original, three medium
+# modern synthetics, and one medium historic image of each profile.
+paths:
+  dataset_db: data/datasets/museum_deduplication_hard_synth_v1_met_deduped_medium_o1m3h4_v1/dataset.db
+  image_root: data/datasets/museum_deduplication_hard_synth_v1_met_deduped_medium_o1m3h4_v1/images
+
+split:
+  file: ../splits/museum_deduplication_hard_synth_v1_met_deduped_medium_o1m3h4_v1/hard_synth_class_disjoint_v1.json
+
+protocol:
+  recipe: ../synthetic/hard_synth_medium_o1m3h4_v1.yml
+  generation_plan: generation_plan.json
+  split_preset: hard_synth_class_disjoint_v1
+  modern_original_semantics: transformed_source_derivative
+  modern_synthetics_per_class: 3
+  historic_synthetics_per_class: 4
+  severity_preset: medium
+
+identity:
+  expected_num_classes: 11094
+  expected_num_images: 99846
+  split_images: 88752

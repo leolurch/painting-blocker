@@ -1,0 +1,26 @@
+# Dependencies for image_matching/experiments only.
+# The production image_matching Docker image intentionally uses ../requirements.txt.
+numpy==2.2.6
+pandas==3.0.1
+pyarrow==22.0.0
+tqdm==4.67.3
+torch==2.9.1
+torchvision==0.24.1
+transformers==4.57.6
+qwen-vl-utils==0.0.14
+peft==0.18.0
+safetensors==0.8.0
+Pillow==11.0.0
+albumentations==2.0.8
+opencv-python-headless==5.0.0.93
+PyYAML==6.0.3
+python-dotenv==1.0.1
+Jinja2==3.1.6
+open_clip_torch==3.3.0
+huggingface-hub==0.36.2
+ipykernel==7.2.0
+# Some mirrors/CDNs have served a bad wcwidth 0.7.0 wheel hash during IPython installs.
+# Pin to the stable wheel used by prompt-toolkit/IPython-compatible stacks.
+wcwidth==0.2.13
+matplotlib==3.10.9
+pytest==8.4.2

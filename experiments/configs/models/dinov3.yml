@@ -1,0 +1,29 @@
+schema_version: 1
+adapter_name: dino_adapter
+
+models:
+  - model_id: facebook/dinov3-vith16plus-pretrain-lvd1689m
+    revision: c807c9eeea853df70aec4069e6f56b28ddc82acc
+    embedding:
+      output_dim: null
+      normalize: true
+      dtype: float32
+      batch_size: 16
+      pooling: default
+    preprocessing:
+      resize:
+        mode: letterbox
+        size: 512
+
+  - model_id: facebook/dinov3-vit7b16-pretrain-lvd1689m
+    revision: b80367753773648a6793235ab9c65cdbb029506f
+    embedding:
+      output_dim: null
+      normalize: true
+      dtype: float32
+      batch_size: 4
+      pooling: default
+    preprocessing:
+      resize:
+        mode: letterbox
+        size: 512

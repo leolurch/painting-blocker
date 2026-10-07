@@ -1,0 +1,1217 @@
+[
+  {
+    "class_id": 2,
+    "qid": "Q167605",
+    "name": "Rijkmuseum - Milkmaid by Vermeer - panoramio.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 2,
+    "qid": "Q167605",
+    "name": "Vermeer, Johannes, The Milkmaid (about 1657-58).jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Musée du Louvre Marriage at Cana by Veronese 20120629.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo Veronese - Die Hochzeit zu Kana - ca1570.jpeg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, le nozze di cana, 1563-62, da s. giorgio maggiore a venezia, 01 cane.jpg",
+    "role": "modern",
+    "score": 0.25,
+    "dinov3_7b": 0.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, le nozze di cana, 1563-62, da s. giorgio maggiore a venezia, 02 musici.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, le nozze di cana, 1563-62, da s. giorgio maggiore a venezia, 03 cani.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, le nozze di cana, 1563-62, da s. giorgio maggiore a venezia, 04 gatto presso un'anfora.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, le nozze di cana, 1563-62, da s. giorgio maggiore a venezia, 05 gatto.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.5,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, nozze di cana, 1563, 02.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, nozze di cana, 1563, 03.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, nozze di cana, 1563, 04.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paolo veronese, nozze di cana, 1563, 05.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Paulo Veronese - Marriage at Cana, INV 142 (24 2012-06-29).jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "Suleiman in Veronese The Wedding at Cana 1563.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 5,
+    "qid": "Q185255",
+    "name": "The Wedding Feast at Cana in the Musee de Louvre (300124491).jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 6,
+    "qid": "Q275349",
+    "name": "Diego velazquez, toeletta di venere (venere rokeby), 1647-51, 04.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 39,
+    "qid": "Q3842726",
+    "name": "Andrea del verrocchio e lorenzo di credi, madonna di piazza, 1475-86 ca. (pistoria, duomo) 05 donato.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 39,
+    "qid": "Q3842726",
+    "name": "Andrea del verrocchio e lorenzo di credi, madonna di piazza, 1475-86 ca. (pistoria, duomo) 06 tappeto.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 39,
+    "qid": "Q3842726",
+    "name": "Andrea del verrocchio e lorenzo di credi, madonna di piazza, 1475-86 ca. (pistoria, duomo) 06.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 39,
+    "qid": "Q3842726",
+    "name": "Verrocchio e Lorenzo di Credi, Madonna di piazza (1474-1479 circa), particle.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 39,
+    "qid": "Q3842726",
+    "name": "Verrocchio e Lorenzo di Credi, Madonna di piazza (1474-1479 circa), particle2.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 39,
+    "qid": "Q3842726",
+    "name": "Verrocchio e Lorenzo di Credi, Madonna di piazza (1474-1479 circa), particleFXD.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 02.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 03.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 04.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 05.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 06 cane.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.3333333333333333,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 07.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 08.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 09.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 10.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 11.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 12.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 13.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 14.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 15.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 16 sciarpa con frange.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "Frans hals, banchetto degli ufficiali della guardia civica di callivermen, 1624-27, 17 bicchiere.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 50,
+    "qid": "Q16169050",
+    "name": "WLANL - hajeka - Maaltijd van de officieren van de Cluveniersschutterij.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 64,
+    "qid": "Q151047",
+    "name": "Detalles del Nacimiento de Venus, Botticelli, Florencia, Italia, 2019 02.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 64,
+    "qid": "Q151047",
+    "name": "Detalles del Nacimiento de Venus, Botticelli, Florencia, Italia, 2019 10.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 64,
+    "qid": "Q151047",
+    "name": "The Birth of Venus (Nascita di Venere), Galleria degli Uffizi, Florence -detail- (26072923913).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 64,
+    "qid": "Q151047",
+    "name": "The Birth of Venus (Nascita di Venere), Galleria degli Uffizi, Florence -detail- (26583938512).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - Saint Anne and the Virgin.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - Saint Anne.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - The Child.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - The Virgin.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - The cliff.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - The mountains.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 66,
+    "qid": "Q563727",
+    "name": "Virgin and Child with Saint Anne - The tree.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 73,
+    "qid": "Q794077",
+    "name": "32- Tiziano, Amor sacro e amor profano, 1514 -FG32.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 73,
+    "qid": "Q794077",
+    "name": "33- Tiziano, Amor sacro e amor profano, 1514 -FG33.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 73,
+    "qid": "Q794077",
+    "name": "Galleria Borghese 64.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "20230811 Brugge22.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "20230811 Brugge23.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "20230811 Brugge24.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Groeningemuseum-van Eyck-Madonna with Canon Joris van der Paele-Detail DSC9420.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 02.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 03.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 04.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 05.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 06.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 07.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 08.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 09.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 10.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 11.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 12.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Jan van eyck, madonna del canonico van der paele, 1436, 13.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna del canonico van der Paele dettaglio.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna del canonico van der Paele dettaglio2.jpg",
+    "role": "modern",
+    "score": 0.8333333333333333,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna met kanunnik Van der Paele 01.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna met kanunnik Van der Paele 02.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna met kanunnik Van der Paele 03.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna met kanunnik Van der Paele 04.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna met kanunnik Van der Paele 05.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "Madonna met kanunnik Van der Paele 07.jpg",
+    "role": "modern",
+    "score": 0.6666666666666666,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "PM 148428 B Brugge.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 76,
+    "qid": "Q2480921",
+    "name": "PM 148434 B Brugge.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.6666666666666666,
+    "siglip2": 0.3333333333333333
+  },
+  {
+    "class_id": 77,
+    "qid": "Q746716",
+    "name": "Narcissus by Caravaggio, 1597–1599, Galleria Nazionale d'Arte Antica (21836123485) (cropped focus on knee).jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 78,
+    "qid": "Q1213437",
+    "name": "The haymaking, 1565 - detail3.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 81,
+    "qid": "Q18686031",
+    "name": "Hugo van der Goes, Portinari Triptych, 1475, Uffizi, detail3, Saints Mary Magdalene and Margaret.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 81,
+    "qid": "Q18686031",
+    "name": "Hugo van der Goes, Portinari Triptych, 1475, Uffizi, left wing, detail of sons.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 81,
+    "qid": "Q18686031",
+    "name": "Hugo van der Goes, Portinari Triptych, 1475, Uffizi, left wing.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 81,
+    "qid": "Q18686031",
+    "name": "Hugo van der goes portinari triptych rightFXD.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 95,
+    "qid": "Q2311238",
+    "name": "2021 Portret van een stel, Muurschildering Haarlemmerstraat 141.jpg",
+    "role": "modern",
+    "score": 0.8,
+    "dinov3_7b": 0.8,
+    "siglip2": 0.8
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Angeli, Apparizione della Vergine a San Bernardo di Filippino Lippi, Badia Fiorentina.jpg",
+    "role": "modern",
+    "score": 0.25,
+    "dinov3_7b": 0.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Diavolo, Apparizione della Vergine a San Bernardo di Filippino Lippi, Badia Fiorentina.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Filippino Lippi, Apparizione della Vergine a san Bernardo, 1482-86, 05.jpg",
+    "role": "modern",
+    "score": 0.5,
+    "dinov3_7b": 0.5,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Filippino Lippi, Apparizione della Vergine a san Bernardo, 1482-86, 07.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Filippino Lippi, Apparizione della Vergine a san Bernardo, 1482-86, 08.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Filippino Lippi, Apparizione della Vergine a san Bernardo, 1482-86, 09.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Filippino Lippi, Apparizione della Vergine a san Bernardo, 1482-86, 10.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.5
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Filippino, apparizione 02.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Firenze, badia fiorentina (6261701434).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "Monaci, Apparizione della Vergine a San Bernardo di Filippino Lippi, Badia Fiorentina.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "TOSCANA2011 (6261173963).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "TOSCANA2011 (6261177393).jpg",
+    "role": "modern",
+    "score": 0.0,
+    "dinov3_7b": 0.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "TOSCANA2011 (6261178667).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 110,
+    "qid": "Q2735676",
+    "name": "TOSCANA2011 (6261697830).jpg",
+    "role": "modern",
+    "score": 0.0,
+    "dinov3_7b": 0.0,
+    "siglip2": 0.0
+  },
+  {
+    "class_id": 118,
+    "qid": "Q3686076",
+    "name": "Tiziano, concerto a tre, 1510 ca. 03.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Amsterdam 4002 32.jpg",
+    "role": "modern",
+    "score": 0.7,
+    "dinov3_7b": 0.7666666666666667,
+    "siglip2": 0.6333333333333333
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Amsterdam 4002 33.jpg",
+    "role": "modern",
+    "score": 0.8,
+    "dinov3_7b": 0.7666666666666667,
+    "siglip2": 0.8333333333333334
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Amsterdam 4002 34.jpg",
+    "role": "modern",
+    "score": 0.8666666666666667,
+    "dinov3_7b": 0.8333333333333334,
+    "siglip2": 0.9
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "De Griekse veldmaarschalk Papagos bracht tijdens zijn bezoek aan Amsterdam ook e, Bestanddeelnr 105-1069.jpg",
+    "role": "historic",
+    "score": 0.07894736842105263,
+    "dinov3_7b": 0.0,
+    "siglip2": 0.15789473684210525
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Nachtwakers doen hun ronde Hier staan ze bij de Nachtwacht, Bestanddeelnr 900-8570.jpg",
+    "role": "historic",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Netherlands-4164 - Main Characters in the Night Watch (11715223944).jpg",
+    "role": "modern",
+    "score": 0.7166666666666667,
+    "dinov3_7b": 0.7666666666666667,
+    "siglip2": 0.6666666666666666
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Statiebezoek koning Boudewijn , bezoek Rijksmuseum, aankomst, Bestanddeelnr 910-5023.jpg",
+    "role": "historic",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Statiebezoek koning Boudewijn , bezoek Rijksmuseum, aankomst, Bestanddeelnr 910-5024.jpg",
+    "role": "historic",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Vandalized Night Watch 1975-09-16b.jpg",
+    "role": "historic",
+    "score": 0.894736842105263,
+    "dinov3_7b": 0.9473684210526315,
+    "siglip2": 0.8421052631578947
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Vandalized Night Watch 1975-09-16c tilt corrected.jpg",
+    "role": "historic",
+    "score": 0.9736842105263157,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.9473684210526315
+  },
+  {
+    "class_id": 182,
+    "qid": "Q219831",
+    "name": "Vandalized Night Watch 1975-09-16c.jpg",
+    "role": "historic",
+    "score": 0.9736842105263157,
+    "dinov3_7b": 1.0,
+    "siglip2": 0.9473684210526315
+  },
+  {
+    "class_id": 204,
+    "qid": "Q17566948",
+    "name": "Musée de Picardie, Lady Godiva par Jules Lefebvre (1890) 3.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 206,
+    "qid": "Q220859",
+    "name": "London National gallery Van Eyck Arnolfini Marriage 04.jpg",
+    "role": "modern",
+    "score": 0.9166666666666667,
+    "dinov3_7b": 0.8333333333333334,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 206,
+    "qid": "Q220859",
+    "name": "London National gallery Van Eyck Arnolfini Marriage 05.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 206,
+    "qid": "Q220859",
+    "name": "London National gallery Van Eyck Arnolfini Marriage 06.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 206,
+    "qid": "Q220859",
+    "name": "London National gallery Van Eyck Arnolfini Marriage 07.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 210,
+    "qid": "Q693746",
+    "name": "Friedrich monje a la orilla del mar 04.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 210,
+    "qid": "Q693746",
+    "name": "The Monk by the Sea by Friedrich, detail.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 215,
+    "qid": "Q5885526",
+    "name": "The Gulbenkian Museum (42467258181).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 02.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 03,1.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 03.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 04.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 05 diadema gioiello.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 05 pipa e incensiere.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 220,
+    "qid": "Q1978815",
+    "name": "Jean-auguste-dominique ingres, la grande odalisca, 1814, 06 ventaglio.jpg",
+    "role": "modern",
+    "score": 0.75,
+    "dinov3_7b": 0.5,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 286,
+    "qid": "Q2344437",
+    "name": "Raffaello, trasfigurazione, 1516-20, 02.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 308,
+    "qid": "Q1800916",
+    "name": "Larsson GustavVasas intåg 2012.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 311,
+    "qid": "Q22443796",
+    "name": "Hans Memling - Portrait of Tommaso di Folco Portinari (ca. 1470).jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 311,
+    "qid": "Q22443796",
+    "name": "Tommaso di Folco Portinari (1428–1501); Maria Portinari (Maria Maddalena Baroncelli, born 1456) MET ep14.40.62627.R.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 419,
+    "qid": "Q1103801",
+    "name": "Rafael Santa Cecilia. 08.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 528,
+    "qid": "Q1282978",
+    "name": "Bonaparte au pont d’Arcole, par Adele Hoguer, d'après Antoine-Jean Gros.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  },
+  {
+    "class_id": 670,
+    "qid": "Q3696827",
+    "name": "Oberhausen - Gasometer - Der schöne Schein - Sistine Chapel ceiling - Creation of the Sun, Moon, and Planets 01 ies.jpg",
+    "role": "modern",
+    "score": 1.0,
+    "dinov3_7b": 1.0,
+    "siglip2": 1.0
+  }
+]

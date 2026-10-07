@@ -1,0 +1,28 @@
+schema_version: 1
+recipe_id: hard_synth_v1
+profile_version: 1
+
+dimensions:
+  max_source_side: 1024
+  max_output_dimension: 1024
+
+# Medium severity keeps the view settings in generate_synth_dataset.py.
+# A modern photograph crops at most 6% and uses JPEG quality 75 to 100.
+# An archival view is aged in 90% of cases and sepia-toned in 45%.
+# A print is placed on a paper document in 75% of cases.
+# A cropped record removes at most 25%.
+# A historic view loses resolution with probability 0.40 to 0.75
+# and uses JPEG quality 40 to 95.
+historic_profiles:
+  archival:
+    variants_per_test_class: 1
+    severity: [medium]
+  print:
+    variants_per_test_class: 1
+    severity: [medium]
+  cropped_record:
+    variants_per_test_class: 1
+    severity: [medium]
+  framed_photo:
+    variants_per_test_class: 1
+    severity: [medium]

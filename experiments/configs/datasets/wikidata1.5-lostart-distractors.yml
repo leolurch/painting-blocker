@@ -1,0 +1,10 @@
+schema_version: 1
+
+dataset_id: wikidata1.5-lostart-distractors
+
+paths:
+  image_root: data/datasets/wikidata1.5-lostart-distractors/images
+
+identity:
+  expected_num_classes: 19982
+  expected_num_images: 28653

@@ -1,0 +1,48 @@
+{
+  "relabels": [
+    {
+      "name": "Historya biblijna dla rodzin chrzescijanskich T. 2 1896 (94009815).jpg",
+      "from_qid": "Q3224308",
+      "to_qid": "Q2030685",
+      "reason": "The 1896 plate reproduces Raphael's Marriage of the Virgin (Brera), not Perugino's (Caen).",
+      "from_class_id": 700,
+      "to_class_id": 682,
+      "role": "historic"
+    }
+  ],
+  "merges": [
+    {
+      "absorbed_qid": "Q3937623",
+      "surviving_qid": "Q22443796",
+      "reason": "Hans Memmling - Maria Portinari (ca. 1470).jpg is the right-hand panel inside the MET LC-14 40 626 27 Recon image of Q22443796.",
+      "absorbed_class_id": 471,
+      "surviving_class_id": 311,
+      "moved": [
+        "Hans Memmling - Maria Portinari (ca. 1470).jpg",
+        "Tommaso di Folco Portinari (1428–1501); Maria Portinari (Maria Maddalena Baroncelli, born 1456) MET LC-14 40 627 IRR FINAL.jpg",
+        "Tommaso di Folco Portinari (1428–1501); Maria Portinari (Maria Maddalena Baroncelli, born 1456) MET ep14.40.626.AV1.jpg"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Amsterdam (139988974).jpg",
+      "reason": "Collage of two paintings.",
+      "class_id": 2,
+      "qid": "Q167605",
+      "role": "modern",
+      "cropped": true
+    }
+  ],
+  "dropped_identities": [
+    {
+      "class_id": 700,
+      "qid": "Q3224308",
+      "names": [
+        "After Pietro Perugino (Città della Pieve c.1450-Fontignano 1523) - The Marriage of the Virgin - RCIN 406581 - Royal Collection.jpg",
+        "Caen (Calvados) - Musée des Beaux-Arts - \"Le Mariage de la Vierge\" (Pietro Vannucci dit Pérugin, vers 1448-1523) (48697489691).jpg"
+      ],
+      "reason": "No historic image left after the edits."
+    }
+  ]
+}

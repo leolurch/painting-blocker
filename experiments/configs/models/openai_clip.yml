@@ -1,0 +1,16 @@
+schema_version: 1
+adapter_name: openai_clip_adapter
+
+models:
+  - model_id: openai/clip-vit-large-patch14-336
+    revision: ce19dc912ca5cd21c8a653c79e251e808ccabcd1
+    embedding:
+      output_dim: 768
+      normalize: true
+      dtype: float32
+      batch_size: 64
+      pooling: default
+    preprocessing:
+      resize:
+        mode: letterbox
+        size: 336

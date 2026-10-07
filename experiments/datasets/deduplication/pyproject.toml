@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "museum-deduplication"
+version = "0.1.0"
+description = "Standalone, resumable museum-image deduplication pipeline (DINOv3 + SuperPoint/LightGlue)."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "Pillow",
+    "torch==2.9.1",
+    "transformers==4.57.6",
+    "scikit-learn==1.8.0",
+    "joblib==1.5.3",
+    "Flask",
+    "ortools",
+]
+
+# LightGlue is intentionally installed separately with --no-deps; a normal dependency would pull
+# the GUI OpenCV wheel onto headless compute nodes. See requirements.txt / README.md.
+
+[tool.setuptools]
+packages = ["deduplication"]
+
+[tool.setuptools.package-data]
+deduplication = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

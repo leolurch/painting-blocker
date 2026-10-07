@@ -1,0 +1,11 @@
+schema_version: 1
+
+dataset_id: wikidata-1.5
+
+paths:
+  dataset_db: data/datasets/wikidata-1.5/dataset.db
+  image_root: data/datasets/wikidata-1.5/images
+
+identity:
+  expected_num_classes: 211
+  expected_num_images: 1089
